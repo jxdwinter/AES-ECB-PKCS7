@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		723D79AF193EAAC8006D6736 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723D79AE193EAAC8006D6736 /* Foundation.framework */; };
+		723D79B1193EAAC8006D6736 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723D79B0193EAAC8006D6736 /* CoreGraphics.framework */; };
+		723D79B3193EAAC8006D6736 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723D79B2193EAAC8006D6736 /* UIKit.framework */; };
+		723D79B9193EAAC8006D6736 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 723D79B7193EAAC8006D6736 /* InfoPlist.strings */; };
+		723D79BB193EAAC9006D6736 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 723D79BA193EAAC8006D6736 /* main.m */; };
+		723D79BF193EAAC9006D6736 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 723D79BE193EAAC9006D6736 /* AppDelegate.m */; };
+		723D79C2193EAAC9006D6736 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 723D79C0193EAAC9006D6736 /* Main.storyboard */; };
+		723D79C5193EAAC9006D6736 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 723D79C4193EAAC9006D6736 /* ViewController.m */; };
+		723D79C7193EAAC9006D6736 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723D79C6193EAAC9006D6736 /* Images.xcassets */; };
+		723D79CE193EAAC9006D6736 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723D79CD193EAAC9006D6736 /* XCTest.framework */; };
+		723D79CF193EAAC9006D6736 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723D79AE193EAAC8006D6736 /* Foundation.framework */; };
+		723D79D0193EAAC9006D6736 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723D79B2193EAAC8006D6736 /* UIKit.framework */; };
+		723D79D8193EAAC9006D6736 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 723D79D6193EAAC9006D6736 /* InfoPlist.strings */; };
+		723D79DA193EAAC9006D6736 /* ThreeDESTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 723D79D9193EAAC9006D6736 /* ThreeDESTestDemoTests.m */; };
+		723D79E8193EAAE7006D6736 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 723D79E4193EAAE7006D6736 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7244F1B2193F1F2E00FFEE25 /* AESenAndDe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7244F1AD193F1F2E00FFEE25 /* AESenAndDe.m */; };
+		7244F1B3193F1F2E00FFEE25 /* FBEncryptorAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 7244F1AF193F1F2E00FFEE25 /* FBEncryptorAES.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		723D79D1193EAAC9006D6736 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 723D79A3193EAAC8006D6736 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 723D79AA193EAAC8006D6736;
+			remoteInfo = ThreeDESTestDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		723D79AB193EAAC8006D6736 /* ThreeDESTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeDESTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		723D79AE193EAAC8006D6736 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		723D79B0193EAAC8006D6736 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		723D79B2193EAAC8006D6736 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		723D79B6193EAAC8006D6736 /* ThreeDESTestDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThreeDESTestDemo-Info.plist"; sourceTree = "<group>"; };
+		723D79B8193EAAC8006D6736 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		723D79BA193EAAC8006D6736 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		723D79BC193EAAC9006D6736 /* ThreeDESTestDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThreeDESTestDemo-Prefix.pch"; sourceTree = "<group>"; };
+		723D79BD193EAAC9006D6736 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		723D79BE193EAAC9006D6736 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		723D79C1193EAAC9006D6736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		723D79C3193EAAC9006D6736 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		723D79C4193EAAC9006D6736 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		723D79C6193EAAC9006D6736 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		723D79CC193EAAC9006D6736 /* ThreeDESTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeDESTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		723D79CD193EAAC9006D6736 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		723D79D5193EAAC9006D6736 /* ThreeDESTestDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThreeDESTestDemoTests-Info.plist"; sourceTree = "<group>"; };
+		723D79D7193EAAC9006D6736 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		723D79D9193EAAC9006D6736 /* ThreeDESTestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeDESTestDemoTests.m; sourceTree = "<group>"; };
+		723D79E3193EAAE7006D6736 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		723D79E4193EAAE7006D6736 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		723D79E5193EAAE7006D6736 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		7244F1AC193F1F2E00FFEE25 /* AESenAndDe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESenAndDe.h; sourceTree = "<group>"; };
+		7244F1AD193F1F2E00FFEE25 /* AESenAndDe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESenAndDe.m; sourceTree = "<group>"; };
+		7244F1AE193F1F2E00FFEE25 /* FBEncryptorAES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBEncryptorAES.h; sourceTree = "<group>"; };
+		7244F1AF193F1F2E00FFEE25 /* FBEncryptorAES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBEncryptorAES.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		723D79A8193EAAC8006D6736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723D79B1193EAAC8006D6736 /* CoreGraphics.framework in Frameworks */,
+				723D79B3193EAAC8006D6736 /* UIKit.framework in Frameworks */,
+				723D79AF193EAAC8006D6736 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723D79C9193EAAC9006D6736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723D79CE193EAAC9006D6736 /* XCTest.framework in Frameworks */,
+				723D79D0193EAAC9006D6736 /* UIKit.framework in Frameworks */,
+				723D79CF193EAAC9006D6736 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		723D79A2193EAAC8006D6736 = {
+			isa = PBXGroup;
+			children = (
+				7244F1AC193F1F2E00FFEE25 /* AESenAndDe.h */,
+				7244F1AD193F1F2E00FFEE25 /* AESenAndDe.m */,
+				7244F1AE193F1F2E00FFEE25 /* FBEncryptorAES.h */,
+				7244F1AF193F1F2E00FFEE25 /* FBEncryptorAES.m */,
+				723D79E3193EAAE7006D6736 /* GTMBase64.h */,
+				723D79E4193EAAE7006D6736 /* GTMBase64.m */,
+				723D79E5193EAAE7006D6736 /* GTMDefines.h */,
+				723D79B4193EAAC8006D6736 /* ThreeDESTestDemo */,
+				723D79D3193EAAC9006D6736 /* ThreeDESTestDemoTests */,
+				723D79AD193EAAC8006D6736 /* Frameworks */,
+				723D79AC193EAAC8006D6736 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		723D79AC193EAAC8006D6736 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				723D79AB193EAAC8006D6736 /* ThreeDESTestDemo.app */,
+				723D79CC193EAAC9006D6736 /* ThreeDESTestDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		723D79AD193EAAC8006D6736 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				723D79AE193EAAC8006D6736 /* Foundation.framework */,
+				723D79B0193EAAC8006D6736 /* CoreGraphics.framework */,
+				723D79B2193EAAC8006D6736 /* UIKit.framework */,
+				723D79CD193EAAC9006D6736 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		723D79B4193EAAC8006D6736 /* ThreeDESTestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				723D79BD193EAAC9006D6736 /* AppDelegate.h */,
+				723D79BE193EAAC9006D6736 /* AppDelegate.m */,
+				723D79C0193EAAC9006D6736 /* Main.storyboard */,
+				723D79C3193EAAC9006D6736 /* ViewController.h */,
+				723D79C4193EAAC9006D6736 /* ViewController.m */,
+				723D79C6193EAAC9006D6736 /* Images.xcassets */,
+				723D79B5193EAAC8006D6736 /* Supporting Files */,
+			);
+			path = ThreeDESTestDemo;
+			sourceTree = "<group>";
+		};
+		723D79B5193EAAC8006D6736 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				723D79B6193EAAC8006D6736 /* ThreeDESTestDemo-Info.plist */,
+				723D79B7193EAAC8006D6736 /* InfoPlist.strings */,
+				723D79BA193EAAC8006D6736 /* main.m */,
+				723D79BC193EAAC9006D6736 /* ThreeDESTestDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		723D79D3193EAAC9006D6736 /* ThreeDESTestDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				723D79D9193EAAC9006D6736 /* ThreeDESTestDemoTests.m */,
+				723D79D4193EAAC9006D6736 /* Supporting Files */,
+			);
+			path = ThreeDESTestDemoTests;
+			sourceTree = "<group>";
+		};
+		723D79D4193EAAC9006D6736 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				723D79D5193EAAC9006D6736 /* ThreeDESTestDemoTests-Info.plist */,
+				723D79D6193EAAC9006D6736 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		723D79AA193EAAC8006D6736 /* ThreeDESTestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 723D79DD193EAAC9006D6736 /* Build configuration list for PBXNativeTarget "ThreeDESTestDemo" */;
+			buildPhases = (
+				723D79A7193EAAC8006D6736 /* Sources */,
+				723D79A8193EAAC8006D6736 /* Frameworks */,
+				723D79A9193EAAC8006D6736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeDESTestDemo;
+			productName = ThreeDESTestDemo;
+			productReference = 723D79AB193EAAC8006D6736 /* ThreeDESTestDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		723D79CB193EAAC9006D6736 /* ThreeDESTestDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 723D79E0193EAAC9006D6736 /* Build configuration list for PBXNativeTarget "ThreeDESTestDemoTests" */;
+			buildPhases = (
+				723D79C8193EAAC9006D6736 /* Sources */,
+				723D79C9193EAAC9006D6736 /* Frameworks */,
+				723D79CA193EAAC9006D6736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				723D79D2193EAAC9006D6736 /* PBXTargetDependency */,
+			);
+			name = ThreeDESTestDemoTests;
+			productName = ThreeDESTestDemoTests;
+			productReference = 723D79CC193EAAC9006D6736 /* ThreeDESTestDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		723D79A3193EAAC8006D6736 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jxdwinter;
+				TargetAttributes = {
+					723D79CB193EAAC9006D6736 = {
+						TestTargetID = 723D79AA193EAAC8006D6736;
+					};
+				};
+			};
+			buildConfigurationList = 723D79A6193EAAC8006D6736 /* Build configuration list for PBXProject "ThreeDESTestDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 723D79A2193EAAC8006D6736;
+			productRefGroup = 723D79AC193EAAC8006D6736 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				723D79AA193EAAC8006D6736 /* ThreeDESTestDemo */,
+				723D79CB193EAAC9006D6736 /* ThreeDESTestDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		723D79A9193EAAC8006D6736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723D79C7193EAAC9006D6736 /* Images.xcassets in Resources */,
+				723D79B9193EAAC8006D6736 /* InfoPlist.strings in Resources */,
+				723D79C2193EAAC9006D6736 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723D79CA193EAAC9006D6736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723D79D8193EAAC9006D6736 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		723D79A7193EAAC8006D6736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723D79C5193EAAC9006D6736 /* ViewController.m in Sources */,
+				723D79BF193EAAC9006D6736 /* AppDelegate.m in Sources */,
+				723D79BB193EAAC9006D6736 /* main.m in Sources */,
+				7244F1B2193F1F2E00FFEE25 /* AESenAndDe.m in Sources */,
+				7244F1B3193F1F2E00FFEE25 /* FBEncryptorAES.m in Sources */,
+				723D79E8193EAAE7006D6736 /* GTMBase64.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723D79C8193EAAC9006D6736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723D79DA193EAAC9006D6736 /* ThreeDESTestDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		723D79D2193EAAC9006D6736 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 723D79AA193EAAC8006D6736 /* ThreeDESTestDemo */;
+			targetProxy = 723D79D1193EAAC9006D6736 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		723D79B7193EAAC8006D6736 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				723D79B8193EAAC8006D6736 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		723D79C0193EAAC9006D6736 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				723D79C1193EAAC9006D6736 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		723D79D6193EAAC9006D6736 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				723D79D7193EAAC9006D6736 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		723D79DB193EAAC9006D6736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		723D79DC193EAAC9006D6736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		723D79DE193EAAC9006D6736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeDESTestDemo/ThreeDESTestDemo-Prefix.pch";
+				INFOPLIST_FILE = "ThreeDESTestDemo/ThreeDESTestDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		723D79DF193EAAC9006D6736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeDESTestDemo/ThreeDESTestDemo-Prefix.pch";
+				INFOPLIST_FILE = "ThreeDESTestDemo/ThreeDESTestDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		723D79E1193EAAC9006D6736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThreeDESTestDemo.app/ThreeDESTestDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeDESTestDemo/ThreeDESTestDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ThreeDESTestDemoTests/ThreeDESTestDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		723D79E2193EAAC9006D6736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThreeDESTestDemo.app/ThreeDESTestDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThreeDESTestDemo/ThreeDESTestDemo-Prefix.pch";
+				INFOPLIST_FILE = "ThreeDESTestDemoTests/ThreeDESTestDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		723D79A6193EAAC8006D6736 /* Build configuration list for PBXProject "ThreeDESTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723D79DB193EAAC9006D6736 /* Debug */,
+				723D79DC193EAAC9006D6736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		723D79DD193EAAC9006D6736 /* Build configuration list for PBXNativeTarget "ThreeDESTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723D79DE193EAAC9006D6736 /* Debug */,
+				723D79DF193EAAC9006D6736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		723D79E0193EAAC9006D6736 /* Build configuration list for PBXNativeTarget "ThreeDESTestDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723D79E1193EAAC9006D6736 /* Debug */,
+				723D79E2193EAAC9006D6736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 723D79A3193EAAC8006D6736 /* Project object */;
+}
